@@ -1,0 +1,403 @@
+mixed-port: 7890
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 127.0.0.1:7874
+  nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  fallback:
+    - 1.0.0.1
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8    
+proxies:
+  - name: GetAFreeNode.com-Amsterdam
+    server: prs.eqjgkx.xyz
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.v2ray.online
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.v2ray.online
+    udp: true
+  - name: GetAFreeNode.com-Lille
+    server: prs.eqjgkx.xyz
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Lille.v2ray.online
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Lille.v2ray.online
+    udp: true
+  - name: GetAFreeNode.com-Dusseldorf
+    server: prs.eqjgkx.xyz
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Dusseldorf.v2ray.online
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Dusseldorf.v2ray.online
+    udp: true
+  - name: GetAFreeNode.com-Kansas
+    server: prs.eqjgkx.xyz
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.v2ray.online
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Kansas.v2ray.online
+    udp: true          
+  - name: GetAFreeNode.com-Kansas-ip
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Kansas.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: GetAFreeNode.com-Lille-ip
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: GetAFreeNode.com-Amsterdam-ip
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: GetAFreeNode.com-Dusseldorf-ip
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true   
+  - name: sshstores-Saamii72
+    server: de1.vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: 1b8e2656-809e-47ef-9c91-4214dc85fe84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: soft98.ir
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: de1.vm.cdn-03.live
+    udp: true
+  - name: sshstores-Saamii
+    server: gb2.vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: 7194b603-9434-429a-adae-d2e233749489
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: soft98.ir
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb2.vm.cdn-03.live
+    udp: true
+  - name: cc2
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cc271401080.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: aa2
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aa27140180.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: t9
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: t97140180.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: f90
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: f90.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: aa11
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aa117140180.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: f30
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: f30.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: aa6
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aa67140180.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: f40
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: f40.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: t10
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: t107140180.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: f50
+    server: 1.cinomerip.lol
+    port: 2087
+    type: vmess
+    uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: f50.saeron-app.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+proxy-groups:
+  - name: 🔰 Select
+    type: select
+    proxies:
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Kansas-ip
+      - GetAFreeNode.com-Lille-ip
+      - GetAFreeNode.com-Amsterdam-ip
+      - GetAFreeNode.com-Dusseldorf-ip
+      - sshstores-Saamii72
+      - sshstores-Saamii
+      - cc2
+      - aa2
+      - t9
+      - f90
+      - aa11
+      - f30
+      - aa6
+      - f40
+      - t10
+      - f50
+  - name: 🌀 Auto Ping
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Kansas-ip
+      - GetAFreeNode.com-Lille-ip
+      - GetAFreeNode.com-Amsterdam-ip
+      - GetAFreeNode.com-Dusseldorf-ip
+      - sshstores-Saamii72
+      - sshstores-Saamii
+      - cc2
+      - aa2
+      - t9
+      - f90
+      - aa11
+      - f30
+      - aa6
+      - f40
+      - t10
+      - f50
+  - name: ✅ Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🚫 Intercept
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+rule-providers:
+  iran:
+    type: http
+    behavior: classical
+    url: "https://github.com/SamadiPour/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./ruleset/iran.yaml
+    interval: 432000
+  
+rules:
+
+  - DOMAIN-SUFFIX,ad.com,🚫 Intercept
+  - SRC-IP-CIDR,192.168.1.201/32,✅ Direct
+  - IP-CIDR,127.0.0.0/8,✅ Direct
+  - GEOIP,IR,✅ Direct
+  - MATCH,🔰 Select,dns-failed
+  - RULE-SET,iran,DIRECT
