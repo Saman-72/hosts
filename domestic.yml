@@ -1,0 +1,97 @@
+proxies:
+  - name: 🇫🇷 GetAFreeNode.com-Lille
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: 🇩🇪 GetAFreeNode.com-Dusseldorf
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: 🇳🇱 GetAFreeNode.com-Amsterdam
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: 🇺🇸 GetAFreeNode.com-Kansas
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Kansas.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: 🇩🇪 sshstores-Saamii72
+    server: de1.vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: 1b8e2656-809e-47ef-9c91-4214dc85fe84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: soft98.ir
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: de1.vm.cdn-03.live
+    udp: true
+  - name: 🇬🇧 sshstores-Saamii
+    server: gb2.vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: 7194b603-9434-429a-adae-d2e233749489
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: soft98.ir
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb2.vm.cdn-03.live
+    udp: true
