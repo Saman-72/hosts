@@ -25,27 +25,11 @@ dns:
     - 1.1.1.1
     - 8.8.8.8    
 proxies:
-  - name: 🇫🇷 GetAFreeNode.com-Lille
+  - name: GetAFreeNode.com-Dusseldorf
     server: 104.18.101.194
     port: 443
     type: vmess
-    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Lille.kotick.site
-      headers:
-        Host: freenode.saman72.workers.dev
-    udp: true
-  - name: 🇩🇪 GetAFreeNode.com-Dusseldorf
-    server: 104.18.101.194
-    port: 443
-    type: vmess
-    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
     alterId: 0
     cipher: auto
     tls: true
@@ -57,11 +41,11 @@ proxies:
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
-  - name: 🇳🇱 GetAFreeNode.com-Amsterdam
+  - name: GetAFreeNode.com-Amsterdam
     server: 104.18.101.194
     port: 443
     type: vmess
-    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
     alterId: 0
     cipher: auto
     tls: true
@@ -73,11 +57,27 @@ proxies:
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
-  - name: 🇺🇸 GetAFreeNode.com-Kansas
+  - name: GetAFreeNode.com-Lille
     server: 104.18.101.194
     port: 443
     type: vmess
-    uuid: E9B19EC8-9881-4B9F-A565-00D4933406C1
+    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: GetAFreeNode.com-Kansas
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
     alterId: 0
     cipher: auto
     tls: true
@@ -89,59 +89,77 @@ proxies:
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
-  - name: 🇩🇪 sshstores-Saamii72
-    server: de1.vm.cdn-03.live
+  - name: sshstores-Saamii72
+    server: de1vm.cdn-03.live
     port: 80
     type: vmess
-    uuid: 1b8e2656-809e-47ef-9c91-4214dc85fe84
+    uuid: 1ffb97ad-8e48-4690-b8ac-e05b90b4d53e
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: soft98.ir
+    servername: de1vm.cdn-03.live
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: de1.vm.cdn-03.live
+        Host: de1vm.cdn-03.live
     udp: true
-  - name: 🇬🇧 sshstores-Saamii
-    server: gb2.vm.cdn-03.live
+  - name: sshstores-Saamii
+    server: gb1vm.cdn-03.live
     port: 80
     type: vmess
-    uuid: 7194b603-9434-429a-adae-d2e233749489
+    uuid: b256bc07-6337-4e4e-bcc4-a22182fab37d
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: soft98.ir
+    servername: gb1vm.cdn-03.live
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: gb2.vm.cdn-03.live
+        Host: gb1vm.cdn-03.live
+    udp: true
+  - name: Relay_🇺🇸US-🇺🇸US_159
+    server: vin1.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vin1.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vin1.0bad.com
     udp: true
 proxy-groups:
   - name: 🔰 Select
     type: select
     proxies:
-      - 🇫🇷 GetAFreeNode.com-Lille
-      - 🇩🇪 GetAFreeNode.com-Dusseldorf
-      - 🇳🇱 GetAFreeNode.com-Amsterdam
-      - 🇺🇸 GetAFreeNode.com-Kansas
-      - 🇩🇪 sshstores-Saamii72
-      - 🇬🇧 sshstores-Saamii
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
+      - sshstores-Saamii72
+      - sshstores-Saamii
+      - Relay_🇺🇸US-🇺🇸US_159
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇫🇷 GetAFreeNode.com-Lille
-      - 🇩🇪 GetAFreeNode.com-Dusseldorf
-      - 🇳🇱 GetAFreeNode.com-Amsterdam
-      - 🇺🇸 GetAFreeNode.com-Kansas
-      - 🇩🇪 sshstores-Saamii72
-      - 🇬🇧 sshstores-Saamii
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
+      - sshstores-Saamii72
+      - sshstores-Saamii
+      - Relay_🇺🇸US-🇺🇸US_159
   - name: ✅ Direct
     type: select
     proxies:
