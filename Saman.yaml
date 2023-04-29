@@ -25,27 +25,11 @@ dns:
     - 1.1.1.1
     - 8.8.8.8    
 proxies:
-  - name: GetAFreeNode.com-Dusseldorf
-    server: 104.18.101.194
-    port: 443
-    type: vmess
-    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Dusseldorf.kotick.site
-      headers:
-        Host: freenode.saman72.workers.dev
-    udp: true
   - name: GetAFreeNode.com-Amsterdam
     server: 104.18.101.194
     port: 443
     type: vmess
-    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
+    uuid: ADDA16AB-8811-4B8B-9B21-FFBB9E2417BB
     alterId: 0
     cipher: auto
     tls: true
@@ -57,11 +41,11 @@ proxies:
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
-  - name: GetAFreeNode.com-Lille
+  - name: GetAFreeNode.com-Dusseldorf
     server: 104.18.101.194
     port: 443
     type: vmess
-    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
+    uuid: ADDA16AB-8811-4B8B-9B21-FFBB9E2417BB
     alterId: 0
     cipher: auto
     tls: true
@@ -69,7 +53,7 @@ proxies:
     servername: freenode.saman72.workers.dev
     network: ws
     ws-opts:
-      path: /speedtest/Lille.kotick.site
+      path: /speedtest/Dusseldorf.kotick.site
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
@@ -77,7 +61,7 @@ proxies:
     server: 104.18.101.194
     port: 443
     type: vmess
-    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
+    uuid: ADDA16AB-8811-4B8B-9B21-FFBB9E2417BB
     alterId: 0
     cipher: auto
     tls: true
@@ -89,11 +73,27 @@ proxies:
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
+  - name: GetAFreeNode.com-Lille
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: ADDA16AB-8811-4B8B-9B21-FFBB9E2417BB
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
   - name: GetAFreeNode.com-LosAngeles
     server: 104.18.101.194
     port: 443
     type: vmess
-    uuid: 32328E4B-2F8D-46AA-8C55-EE8B06B32B89
+    uuid: ADDA16AB-8811-4B8B-9B21-FFBB9E2417BB
     alterId: 0
     cipher: auto
     tls: true
@@ -104,38 +104,6 @@ proxies:
       path: /speedtest/LosAngeles.kotick.site
       headers:
         Host: freenode.saman72.workers.dev
-    udp: true    
-  - name: sshstores-Saamii72
-    server: de1vm.cdn-03.live
-    port: 80
-    type: vmess
-    uuid: 1ffb97ad-8e48-4690-b8ac-e05b90b4d53e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: de1vm.cdn-03.live
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: de1vm.cdn-03.live
-    udp: true
-  - name: sshstores-Saamii
-    server: gb1vm.cdn-03.live
-    port: 80
-    type: vmess
-    uuid: b256bc07-6337-4e4e-bcc4-a22182fab37d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: gb1vm.cdn-03.live
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: gb1vm.cdn-03.live
     udp: true
   - name: Relay_🇺🇸US-🇺🇸US_159
     server: vin1.0bad.com
@@ -153,31 +121,115 @@ proxies:
       headers:
         Host: vin1.0bad.com
     udp: true
+  - name: sshstores-Saamii
+    server: gb1vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: b256bc07-6337-4e4e-bcc4-a22182fab37d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: gb1vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb1vm.cdn-03.live
+    udp: true
+  - name: sshstores-Saamii72
+    server: gb4vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: ce7d7925-cdf7-44f0-b510-e03733f2ac04
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: soft98.ir
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb4vm.cdn-03.live
+    udp: true
+  - name: Iranian+Cypherpunks+8443
+    server: lars.ns.cloudflare.com
+    port: 8443
+    type: vless
+    uuid: fc03933c-9b0b-4eab-9c5f-626ea67c5bff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b4.iraniancp.autos
+    udp: true
+  - name: Iranian Cypherpunks 2053
+    server: 104.18.24.57
+    port: 2053
+    type: vmess
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b5.iraniancp.autos
+    udp: true
+  - name: Iranian+Cypherpunks+2083
+    server: 104.18.231.187
+    port: 2083
+    type: vless
+    uuid: 3365caca-abaa-47ba-ed1d-7e81c753fabe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b6.iraniancp.autos
+    udp: true
 proxy-groups:
   - name: 🔰 Select
     type: select
     proxies:
-      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-LosAngeles
-      - sshstores-Saamii72
-      - sshstores-Saamii
       - Relay_🇺🇸US-🇺🇸US_159
+      - sshstores-Saamii
+      - sshstores-Saamii72
+      - Iranian+Cypherpunks+8443
+      - Iranian Cypherpunks 2053
+      - Iranian+Cypherpunks+2083
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-LosAngeles
-      - sshstores-Saamii72
-      - sshstores-Saamii
       - Relay_🇺🇸US-🇺🇸US_159
+      - sshstores-Saamii
+      - sshstores-Saamii72
+      - Iranian+Cypherpunks+8443
+      - Iranian Cypherpunks 2053
+      - Iranian+Cypherpunks+2083
   - name: ✅ Direct
     type: select
     proxies:
