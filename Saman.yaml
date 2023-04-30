@@ -121,6 +121,54 @@ proxies:
       headers:
         Host: vin1.0bad.com
     udp: true
+  - name: sshstores-saamii
+    server: de2vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: 3b3f68d6-a626-46b3-aa92-b6c1a5714852
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: soft98.ir
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: de2vm.cdn-03.live
+    udp: true
+  - name: sshstores-Saamii72
+    server: fr1vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: 82d863f4-e5ea-4c4e-9e0a-1c3c3fba48d1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: soft98.ir
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: fr1vm.cdn-03.live
+    udp: true
+  - name: sshstores-Saamaan72
+    server: us8vm.cdn-03.live
+    port: 80
+    type: vmess
+    uuid: a0c9be6b-463c-41ce-aae5-a79930ab0ed9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: soft98.ir
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: us8vm.cdn-03.live
+    udp: true    
   - name: Iranian Cypherpunks 2053
     server: 104.18.24.57
     port: 2053
@@ -192,6 +240,9 @@ proxy-groups:
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-LosAngeles
       - Relay_🇺🇸US-🇺🇸US_159
+      - sshstores-saamii
+      - sshstores-Saamii72
+      - sshstores-Saamaan72
       - Iranian Cypherpunks 2053
       - Iranian+Cypherpunks+2083
       - 3 ⌞  Join - @NicProxy  ⌝
@@ -207,6 +258,9 @@ proxy-groups:
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-LosAngeles
       - Relay_🇺🇸US-🇺🇸US_159
+      - sshstores-saamii
+      - sshstores-Saamii72
+      - sshstores-Saamaan72
       - Iranian Cypherpunks 2053
       - Iranian+Cypherpunks+2083
       - 3 ⌞  Join - @NicProxy  ⌝
