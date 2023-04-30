@@ -121,6 +121,67 @@ proxies:
       headers:
         Host: vin1.0bad.com
     udp: true
+  - name: Iranian Cypherpunks 2053
+    server: 104.18.24.57
+    port: 2053
+    type: vmess
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b5.iraniancp.autos
+    udp: true
+  - name: Iranian+Cypherpunks+2083
+    server: 104.18.231.187
+    port: 2083
+    type: vless
+    uuid: 3365caca-abaa-47ba-ed1d-7e81c753fabe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b6.iraniancp.autos
+    udp: true
+  - name: 3 ⌞  Join - @NicProxy  ⌝
+    server: 104.18.24.57
+    port: 2053
+    type: vmess
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b5.iraniancp.autos
+    udp: true
+  - name: +5+⌞++Join+-+@NicProxy++⌝
+    server: lars.ns.cloudflare.com
+    port: 8443
+    type: vless
+    uuid: fc03933c-9b0b-4eab-9c5f-626ea67c5bff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b4.irani    
 proxy-groups:
   - name: 🔰 Select
     type: select
@@ -131,6 +192,10 @@ proxy-groups:
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-LosAngeles
       - Relay_🇺🇸US-🇺🇸US_159
+      - Iranian Cypherpunks 2053
+      - Iranian+Cypherpunks+2083
+      - 3 ⌞  Join - @NicProxy  ⌝
+      - +5+⌞++Join+-+@NicProxy++⌝
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -142,6 +207,10 @@ proxy-groups:
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-LosAngeles
       - Relay_🇺🇸US-🇺🇸US_159
+      - Iranian Cypherpunks 2053
+      - Iranian+Cypherpunks+2083
+      - 3 ⌞  Join - @NicProxy  ⌝
+      - +5+⌞++Join+-+@NicProxy++⌝
   - name: ✅ Direct
     type: select
     proxies:
