@@ -105,21 +105,85 @@ proxies:
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
-  - name: Relay_🇺🇸US-🇺🇸US_159
-    server: vin1.0bad.com
+  - name: GetAFreeNode.com-Amsterdam-10GB
+    server: 104.18.101.194
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vin1.0bad.com
+    servername: freenode.saman72.workers.dev
     network: ws
     ws-opts:
-      path: /chat
+      path: /speedtest/Amsterdam.kotick.site
       headers:
-        Host: vin1.0bad.com
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: GetAFreeNode.com-Dusseldorf-10GB
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: GetAFreeNode.com-Kansas-10GB
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Kansas.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: GetAFreeNode.com-Lille-10GB
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: GetAFreeNode.com-LosAngeles-10GB
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/LosAngeles.kotick.site
+      headers:
+        Host: freenode.saman72.workers.dev
     udp: true
   - name: sshstores-saamii
     server: de2vm.cdn-03.live
@@ -168,7 +232,54 @@ proxies:
       path: /vmess
       headers:
         Host: us8vm.cdn-03.live
-    udp: true    
+    udp: true
+  - name: Relay_🇺🇸US-🇺🇸US_159
+    server: vin1.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vin1.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vin1.0bad.com
+    udp: true
+  - name: Relay_🇺🇸US-🇺🇸US_159-CF
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: freenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /chat/vin1.0bad.com
+      headers:
+        Host: freenode.saman72.workers.dev
+    udp: true
+  - name: Iranian+Cypherpunks+8443
+    server: lars.ns.cloudflare.com
+    port: 8443
+    type: vless
+    uuid: fc03933c-9b0b-4eab-9c5f-626ea67c5bff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b4.iraniancp.autos
+    udp: true
   - name: Iranian Cypherpunks 2053
     server: 104.18.24.57
     port: 2053
@@ -229,7 +340,23 @@ proxies:
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: b4.irani    
+        Host: b4.iraniancp.autos
+    udp: true
+  - name: +6+⌞++Join+-+@NicProxy++⌝
+    server: 198.41.223.2
+    port: 2083
+    type: vless
+    uuid: 3365caca-abaa-47ba-ed1d-7e81c753fabe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iraniancp.autos
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b6.iraniancp.autos
+    udp: true    
 proxy-groups:
   - name: 🔰 Select
     type: select
@@ -239,14 +366,22 @@ proxy-groups:
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-LosAngeles
-      - Relay_🇺🇸US-🇺🇸US_159
+      - GetAFreeNode.com-Amsterdam-10GB
+      - GetAFreeNode.com-Dusseldorf-10GB
+      - GetAFreeNode.com-Kansas-10GB
+      - GetAFreeNode.com-Lille-10GB
+      - GetAFreeNode.com-LosAngeles-10GB
       - sshstores-saamii
       - sshstores-Saamii72
       - sshstores-Saamaan72
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Relay_🇺🇸US-🇺🇸US_159-CF
+      - Iranian+Cypherpunks+8443
       - Iranian Cypherpunks 2053
       - Iranian+Cypherpunks+2083
       - 3 ⌞  Join - @NicProxy  ⌝
       - +5+⌞++Join+-+@NicProxy++⌝
+      - +6+⌞++Join+-+@NicProxy++⌝
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -257,14 +392,22 @@ proxy-groups:
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-LosAngeles
-      - Relay_🇺🇸US-🇺🇸US_159
+      - GetAFreeNode.com-Amsterdam-10GB
+      - GetAFreeNode.com-Dusseldorf-10GB
+      - GetAFreeNode.com-Kansas-10GB
+      - GetAFreeNode.com-Lille-10GB
+      - GetAFreeNode.com-LosAngeles-10GB
       - sshstores-saamii
       - sshstores-Saamii72
       - sshstores-Saamaan72
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Relay_🇺🇸US-🇺🇸US_159-CF
+      - Iranian+Cypherpunks+8443
       - Iranian Cypherpunks 2053
       - Iranian+Cypherpunks+2083
       - 3 ⌞  Join - @NicProxy  ⌝
       - +5+⌞++Join+-+@NicProxy++⌝
+      - +6+⌞++Join+-+@NicProxy++⌝
   - name: ✅ Direct
     type: select
     proxies:
