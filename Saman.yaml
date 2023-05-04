@@ -356,6 +356,238 @@ proxies:
       path: /?ed=2048
       headers:
         Host: b6.iraniancp.autos
+    udp: true
+  - name: DE4-LHS-#50
+    server: mtn2.limitedhighspeed.com
+    port: 2053
+    type: vless
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cD6LAmzrj3Z2.GiftBrandStore.cfd
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ASDcME1o
+    udp: true
+  - name: FR1-LHS-#38
+    server: mtn2.limitedhighspeed.com
+    port: 2053
+    type: vless
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 0FXqAWnuhCJT.CodeCrazyCorner.cfd
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ASDcME1o
+    udp: true
+  - name: FR1-LHS-#40
+    server: mtn2.limitedhighspeed.com
+    port: 443
+    type: vmess
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zybx3TUYigQC.CodeCrazyCorner.cfd
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: zybx3TUYigQC.CodeCrazyCorner.cfd
+    udp: true
+  - name: UK4-LHS-#58
+    server: mtn2.limitedhighspeed.com
+    port: 2053
+    type: vless
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 3D2xgV0s78vy.StoreShopBrand.cfd
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ASDcME1o
+    udp: true
+  - name: FR2-LHS-#32
+    server: mci2.limitedhighspeed.com
+    port: 443
+    type: vmess
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 3Y2D70PNTkZM.DownloadKingdomXO.cfd
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: 3Y2D70PNTkZM.DownloadKingdomXO.cfd
+    udp: true
+  - name: DE2-LHS-#22
+    server: mtn2.limitedhighspeed.com
+    port: 2053
+    type: vless
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zyNKfvLxG1AJ.ShopStoreBrand.cfd
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ASDcME1o
+    udp: true
+  - name: DE4-LHS-#52
+    server: mtn2.limitedhighspeed.com
+    port: 443
+    type: vmess
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: HzhPUvtN5eQl.GiftBrandStore.cfd
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: HzhPUvtN5eQl.GiftBrandStore.cfd
+    udp: true
+  - name: UK1-LHS-#44
+    server: mtn2.limitedhighspeed.com
+    port: 443
+    type: vmess
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 91CfILQyVb6p.AIPowerhouseHQ.cfd
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: 91CfILQyVb6p.AIPowerhouseHQ.cfd
+    udp: true
+  - name: UK1-LHS-#42
+    server: mtn2.limitedhighspeed.com
+    port: 2053
+    type: vless
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NbrdGP6LBmOn.AIPowerhouseHQ.cfd
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ASDcME1o
+    udp: true
+  - name: UK3-LHS-#48
+    server: mtn2.limitedhighspeed.com
+    port: 443
+    type: vmess
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: QWk02gcbNGdZ.TravelerTribeXO.cfd
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: QWk02gcbNGdZ.TravelerTribeXO.cfd
+    udp: true
+  - name: FI1-LHS-#8
+    server: mtn2.limitedhighspeed.com
+    port: 2053
+    type: vless
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uwm9i8nSW7bl.EntertainmentEmporiumHQ.cfd
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ASDcME1o
+    udp: true
+  - name: DE2-LHS-#24
+    server: mtn2.limitedhighspeed.com
+    port: 443
+    type: vmess
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: XkcfvnxWSr8z.ShopStoreBrand.cfd
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: XkcfvnxWSr8z.ShopStoreBrand.cfd
+    udp: true
+  - name: UK3-LHS-#46
+    server: mtn2.limitedhighspeed.com
+    port: 2053
+    type: vless
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: L9DUogT4pcfw.TravelerTribeXO.cfd
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ASDcME1o
+    udp: true
+  - name: UK2-LHS-#56
+    server: mtn2.limitedhighspeed.com
+    port: 443
+    type: vmess
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 3IQqkzEtL7D0.EntertainmentEmpireX.cfd
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: 3IQqkzEtL7D0.EntertainmentEmpireX.cfd
+    udp: true
+  - name: FI1-LHS-#10
+    server: mtn2.limitedhighspeed.com
+    port: 443
+    type: vmess
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: m1xaQkTq6D5w.EntertainmentEmporiumHQ.cfd
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: m1xaQkTq6D5w.EntertainmentEmporiumHQ.cfd
+    udp: true
+  - name: UK2-LHS-#54
+    server: mtn2.limitedhighspeed.com
+    port: 2053
+    type: vless
+    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 7FIBM42yjbkL.EntertainmentEmpireX.cfd
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ASDcME1o
     udp: true    
 proxy-groups:
   - name: 🔰 Select
@@ -382,6 +614,22 @@ proxy-groups:
       - 3 ⌞  Join - @NicProxy  ⌝
       - +5+⌞++Join+-+@NicProxy++⌝
       - +6+⌞++Join+-+@NicProxy++⌝
+      - DE4-LHS-#50
+      - FR1-LHS-#38
+      - FR1-LHS-#40
+      - UK4-LHS-#58
+      - FR2-LHS-#32
+      - DE2-LHS-#22
+      - DE4-LHS-#52
+      - UK1-LHS-#44
+      - UK1-LHS-#42
+      - UK3-LHS-#48
+      - FI1-LHS-#8
+      - DE2-LHS-#24
+      - UK3-LHS-#46
+      - UK2-LHS-#56
+      - FI1-LHS-#10
+      - UK2-LHS-#54
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -408,6 +656,22 @@ proxy-groups:
       - 3 ⌞  Join - @NicProxy  ⌝
       - +5+⌞++Join+-+@NicProxy++⌝
       - +6+⌞++Join+-+@NicProxy++⌝
+      - DE4-LHS-#50
+      - FR1-LHS-#38
+      - FR1-LHS-#40
+      - UK4-LHS-#58
+      - FR2-LHS-#32
+      - DE2-LHS-#22
+      - DE4-LHS-#52
+      - UK1-LHS-#44
+      - UK1-LHS-#42
+      - UK3-LHS-#48
+      - FI1-LHS-#8
+      - DE2-LHS-#24
+      - UK3-LHS-#46
+      - UK2-LHS-#56
+      - FI1-LHS-#10
+      - UK2-LHS-#54
   - name: ✅ Direct
     type: select
     proxies:
