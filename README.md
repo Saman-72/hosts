@@ -2,7 +2,7 @@
 ### Hi there 👋
 
 <!--
-**Loyalsoldier/Loyalsoldier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Saman-72/hosts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![Loyalsoldier's Github Stats](https://github-readme-stats.vercel.app/api?username=Loyalsoldier&count_private=true&show_icons=true&theme=vue)](https://github.com/anuraghazra/github-readme-stats)
+[![Saman's Github Stats](https://github-readme-stats.vercel.app/api?username=Saman-72/&count_private=true&show_icons=true&theme=vue)](https://github.com/anuraghazra/github-readme-stats)
