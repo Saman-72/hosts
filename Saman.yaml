@@ -345,6 +345,22 @@ proxies:
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
+  - name: Relay_🇺🇸US-🇺🇸US_159-CF2
+    server: 104.22.42.25
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: newfreenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /vin1.0bad.com/chat
+      headers:
+        Host: newfreenode.saman72.workers.dev
+    udp: true    
   - name: Iranian+Cypherpunks+8443
     server: lars.ns.cloudflare.com
     port: 8443
@@ -693,6 +709,7 @@ proxy-groups:
       - sshstores-Saamaan72
       - Relay_🇺🇸US-🇺🇸US_159
       - Relay_🇺🇸US-🇺🇸US_159-CF
+      - Relay_🇺🇸US-🇺🇸US_159-CF2
       - Iranian+Cypherpunks+8443
       - Iranian Cypherpunks 2053
       - Iranian+Cypherpunks+2083
@@ -740,6 +757,7 @@ proxy-groups:
       - sshstores-Saamaan72
       - Relay_🇺🇸US-🇺🇸US_159
       - Relay_🇺🇸US-🇺🇸US_159-CF
+      - Relay_🇺🇸US-🇺🇸US_159-CF2
       - Iranian+Cypherpunks+8443
       - Iranian Cypherpunks 2053
       - Iranian+Cypherpunks+2083
