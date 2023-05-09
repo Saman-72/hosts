@@ -25,7 +25,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIk5vZGUtTG9zQW5nZWxlcy5rb3RpY2suc2l0ZSIs
 ####################################
 # realityforus.com
 ####################################
-vless://597CE1A1-D9B8-4863-9099-D0D7D0E931FE@180.149.45.73:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=kino.pub&fp=chrome&pbk=L1SHcUQZTY9utUZqeeO5nPBzb6xoDGSIGbabLs7eIVU&sid=f8c6e9b40a9c6f26&type=tcp&headerType=none#realityforus.com
+vless://5F51E239-BFD5-4E5A-B29C-24230004ACE4@185.140.12.165:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=kino.pub&fp=chrome&pbk=L1SHcUQZTY9utUZqeeO5nPBzb6xoDGSIGbabLs7eIVU&sid=f8c6e9b40a9c6f26&type=tcp&headerType=none#realityforus.com
 
 ####################################
 # sshstores
