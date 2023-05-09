@@ -34,12 +34,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Amsterdam.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-Dusseldorf
     server: 104.22.42.25
@@ -50,12 +50,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Dusseldorf.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-Kansas
     server: 104.22.42.25
@@ -66,12 +66,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Kansas.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-Lille
     server: 104.22.42.25
@@ -82,12 +82,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Lille.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-LosAngeles
     server: 104.22.42.25
@@ -98,12 +98,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/LosAngeles.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-Amsterdam-10GB
     server: 104.22.42.25
@@ -114,12 +114,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Amsterdam.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-Dusseldorf-10GB
     server: 104.22.42.25
@@ -130,12 +130,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Dusseldorf.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-Kansas-10GB
     server: 104.22.42.25
@@ -146,12 +146,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Kansas.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-Lille-10GB
     server: 104.22.42.25
@@ -162,12 +162,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Lille.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: GetAFreeNode.com-LosAngeles-10GB
     server: 104.22.42.25
@@ -178,12 +178,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/LosAngeles.kotick.site
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: Node-LosAngeles.kotick.site
     server: 104.22.42.25
@@ -194,12 +194,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: newfreenode.saman72.workers.dev
+    servername: newfreenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /LosAngeles.kotick.site/speedtest
       headers:
-        Host: newfreenode.saman72.workers.dev
+        Host: newfreenodes.saman72.workers.dev
     udp: true
   - name: Node-Lille.kotick.site
     server: 104.22.42.25
@@ -210,12 +210,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: newfreenode.saman72.workers.dev
+    servername: newfreenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /Lille.kotick.site/speedtest
       headers:
-        Host: newfreenode.saman72.workers.dev
+        Host: newfreenodes.saman72.workers.dev
     udp: true
   - name: Node-Amsterdam.kotick.site
     server: 104.22.42.25
@@ -226,12 +226,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: newfreenode.saman72.workers.dev
+    servername: newfreenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /Amsterdam.kotick.site/speedtest
       headers:
-        Host: newfreenode.saman72.workers.dev
+        Host: newfreenodes.saman72.workers.dev
     udp: true
   - name: Node-Dusseldorf.kotick.site
     server: 104.22.42.25
@@ -242,12 +242,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: newfreenode.saman72.workers.dev
+    servername: newfreenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
-        Host: newfreenode.saman72.workers.dev
+        Host: newfreenodes.saman72.workers.dev
     udp: true
   - name: Node-Kansas.kotick.site
     server: 104.22.42.25
@@ -258,12 +258,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: newfreenode.saman72.workers.dev
+    servername: newfreenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /Kansas.kotick.site/speedtest
       headers:
-        Host: newfreenode.saman72.workers.dev
+        Host: newfreenodes.saman72.workers.dev
     udp: true
   - name: sshstores-saamii
     server: de2vm.cdn-03.live
@@ -338,12 +338,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenode.saman72.workers.dev
+    servername: freenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /chat/vin1.0bad.com
       headers:
-        Host: freenode.saman72.workers.dev
+        Host: freenodes.saman72.workers.dev
     udp: true
   - name: Relay_🇺🇸US-🇺🇸US_159-CF2
     server: 104.22.42.25
@@ -354,12 +354,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: newfreenode.saman72.workers.dev
+    servername: newfreenodes.saman72.workers.dev
     network: ws
     ws-opts:
       path: /vin1.0bad.com/chat
       headers:
-        Host: newfreenode.saman72.workers.dev
+        Host: newfreenodes.saman72.workers.dev
     udp: true    
   - name: Iranian+Cypherpunks+8443
     server: lars.ns.cloudflare.com
