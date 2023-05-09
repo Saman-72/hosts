@@ -185,6 +185,86 @@ proxies:
       headers:
         Host: freenode.saman72.workers.dev
     udp: true
+  - name: Node-LosAngeles.kotick.site
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: newfreenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /LosAngeles.kotick.site/speedtest
+      headers:
+        Host: newfreenode.saman72.workers.dev
+    udp: true
+  - name: Node-Lille.kotick.site
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: newfreenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        Host: newfreenode.saman72.workers.dev
+    udp: true
+  - name: Node-Amsterdam.kotick.site
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: newfreenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        Host: newfreenode.saman72.workers.dev
+    udp: true
+  - name: Node-Dusseldorf.kotick.site
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: newfreenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        Host: newfreenode.saman72.workers.dev
+    udp: true
+  - name: Node-Kansas.kotick.site
+    server: 104.18.101.194
+    port: 443
+    type: vmess
+    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: newfreenode.saman72.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        Host: newfreenode.saman72.workers.dev
+    udp: true
   - name: sshstores-saamii
     server: de2vm.cdn-03.live
     port: 80
@@ -603,6 +683,11 @@ proxy-groups:
       - GetAFreeNode.com-Kansas-10GB
       - GetAFreeNode.com-Lille-10GB
       - GetAFreeNode.com-LosAngeles-10GB
+      - Node-LosAngeles.kotick.site
+      - Node-Lille.kotick.site
+      - Node-Amsterdam.kotick.site
+      - Node-Dusseldorf.kotick.site
+      - Node-Kansas.kotick.site
       - sshstores-saamii
       - sshstores-Saamii72
       - sshstores-Saamaan72
@@ -645,6 +730,11 @@ proxy-groups:
       - GetAFreeNode.com-Kansas-10GB
       - GetAFreeNode.com-Lille-10GB
       - GetAFreeNode.com-LosAngeles-10GB
+      - Node-LosAngeles.kotick.site
+      - Node-Lille.kotick.site
+      - Node-Amsterdam.kotick.site
+      - Node-Dusseldorf.kotick.site
+      - Node-Kansas.kotick.site
       - sshstores-saamii
       - sshstores-Saamii72
       - sshstores-Saamaan72
