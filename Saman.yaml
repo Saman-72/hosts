@@ -452,6 +452,28 @@ proxies:
       headers:
         Host: BRkzJFdOQ91H.CodeCrazyCorner.cfd
     udp: true 
+  - name: San Jose-2132
+    server: 199.180.103.20
+    port: 49988
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: San Jose-1864
+    server: 156.251.135.14
+    port: 53302
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true    
 proxy-groups:
   - name: 🔰 Select
     type: select
@@ -484,6 +506,8 @@ proxy-groups:
       - FI1-LHS-#24
       - UK2-LHS-#32
       - FR1-LHS-#40
+      - San Jose-2132
+      - San Jose-1864
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -517,6 +541,8 @@ proxy-groups:
       - FI1-LHS-#24
       - UK2-LHS-#32
       - FR1-LHS-#40
+      - San Jose-2132
+      - San Jose-1864
   - name: ✅ Direct
     type: select
     proxies:
