@@ -473,7 +473,73 @@ proxies:
     tls: false
     skip-cert-verify: true
     servername: ""
-    udp: true    
+    udp: true   
+  - name: Iranian+Cypherpunks+Reality2
+    server: 91.107.133.124
+    port: 443
+    type: vless
+    uuid: ce46a621-a0ff-4816-f38a-c023e22f34bc
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: discord.com
+    udp: true
+  - name: X_HER0
+    server: 78.47.192.167
+    port: 33759
+    type: vless
+    uuid: 7916b72c-1fa2-42a0-e13d-591b93310f66
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: www.discord.com
+    udp: true
+  - name: +@Helix_Servers+Reality-Helix3
+    server: 139.162.159.171
+    port: 1443
+    type: vless
+    uuid: 9be40413-9866-43ae-e9ab-959674447ad2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: opensource.org
+    network: grpc
+    grpc-opts:
+      grpc-service-name: Helix3
+    udp: true
+  - name: +@Helix_Servers+Reality-Helix1
+    server: 139.162.159.171
+    port: 8443
+    type: vless
+    uuid: 3b90d953-c3a3-489e-e13a-6d8f247e202e
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cdn.accuweather.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: Helix
+    udp: true
+  - name: "@Helix_Servers TCP-Helix4"
+    server: 139.162.159.171
+    port: 10040
+    type: vmess
+    uuid: 4bfdee9b-7feb-4dec-b0b6-1459a5f66581
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: digicert.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - digicert.com
+    udp: true                
 proxy-groups:
   - name: 🔰 Select
     type: select
@@ -507,7 +573,11 @@ proxy-groups:
       - UK2-LHS-#32
       - FR1-LHS-#40
       - San Jose-2132
-      - San Jose-1864
+      - San Jose- Iranian+Cypherpunks+Reality2
+      - X_HER0
+      - +@Helix_Servers+Reality-Helix3
+      - +@Helix_Servers+Reality-Helix1
+      - "@Helix_Servers TCP-Helix4"-1864
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -543,6 +613,11 @@ proxy-groups:
       - FR1-LHS-#40
       - San Jose-2132
       - San Jose-1864
+      - Iranian+Cypherpunks+Reality2
+      - X_HER0
+      - +@Helix_Servers+Reality-Helix3
+      - +@Helix_Servers+Reality-Helix1
+      - "@Helix_Servers TCP-Helix4"
   - name: ✅ Direct
     type: select
     proxies:
