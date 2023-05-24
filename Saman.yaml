@@ -495,7 +495,7 @@ proxies:
     skip-cert-verify: true
     servername: www.discord.com
     udp: true
-  - name: +@Helix_Servers+Reality-Helix3
+  - name: Helix_Servers+Reality-Helix3
     server: 139.162.159.171
     port: 1443
     type: vless
@@ -508,7 +508,7 @@ proxies:
     grpc-opts:
       grpc-service-name: Helix3
     udp: true
-  - name: +@Helix_Servers+Reality-Helix1
+  - name: Helix_Servers+Reality-Helix1
     server: 139.162.159.171
     port: 8443
     type: vless
@@ -521,7 +521,7 @@ proxies:
     grpc-opts:
       grpc-service-name: Helix
     udp: true
-  - name: "@Helix_Servers TCP-Helix4"
+  - name: Helix_Servers TCP-Helix4
     server: 139.162.159.171
     port: 10040
     type: vmess
@@ -575,9 +575,9 @@ proxy-groups:
       - San Jose-2132
       - San Jose- Iranian+Cypherpunks+Reality2
       - X_HER0
-      - +@Helix_Servers+Reality-Helix3
-      - +@Helix_Servers+Reality-Helix1
-      - "@Helix_Servers TCP-Helix4"-1864
+      - Helix_Servers+Reality-Helix3
+      - Helix_Servers+Reality-Helix1
+      - Helix_Servers TCP-Helix4
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -615,9 +615,9 @@ proxy-groups:
       - San Jose-1864
       - Iranian+Cypherpunks+Reality2
       - X_HER0
-      - +@Helix_Servers+Reality-Helix3
-      - +@Helix_Servers+Reality-Helix1
-      - "@Helix_Servers TCP-Helix4"
+      - Helix_Servers+Reality-Helix3
+      - Helix_Servers+Reality-Helix1
+      - Helix_Servers TCP-Helix4
   - name: ✅ Direct
     type: select
     proxies:
