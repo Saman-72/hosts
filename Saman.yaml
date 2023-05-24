@@ -528,7 +528,8 @@ proxy-groups:
       - UK2-LHS-#32
       - FR1-LHS-#40
       - San Jose-2132
-      - San Jose- Iranian+Cypherpunks+Reality2
+      - San Jose
+      - Iranian+Cypherpunks+Reality2
       - X_HER0
   - name: 🌀 Auto Ping
     type: url-test
