@@ -494,52 +494,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     servername: www.discord.com
-    udp: true
-  - name: Helix_Servers+Reality-Helix3
-    server: 139.162.159.171
-    port: 1443
-    type: vless
-    uuid: 9be40413-9866-43ae-e9ab-959674447ad2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: opensource.org
-    network: grpc
-    grpc-opts:
-      grpc-service-name: Helix3
-    udp: true
-  - name: Helix_Servers+Reality-Helix1
-    server: 139.162.159.171
-    port: 8443
-    type: vless
-    uuid: 3b90d953-c3a3-489e-e13a-6d8f247e202e
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: cdn.accuweather.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: Helix
-    udp: true
-  - name: Helix_Servers TCP-Helix4
-    server: 139.162.159.171
-    port: 10040
-    type: vmess
-    uuid: 4bfdee9b-7feb-4dec-b0b6-1459a5f66581
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: digicert.com
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-      headers:
-        Host:
-          - digicert.com
-    udp: true                
+    udp: true           
 proxy-groups:
   - name: 🔰 Select
     type: select
@@ -575,9 +530,6 @@ proxy-groups:
       - San Jose-2132
       - San Jose- Iranian+Cypherpunks+Reality2
       - X_HER0
-      - Helix_Servers+Reality-Helix3
-      - Helix_Servers+Reality-Helix1
-      - Helix_Servers TCP-Helix4
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -615,9 +567,6 @@ proxy-groups:
       - San Jose-1864
       - Iranian+Cypherpunks+Reality2
       - X_HER0
-      - Helix_Servers+Reality-Helix3
-      - Helix_Servers+Reality-Helix1
-      - Helix_Servers TCP-Helix4
   - name: ✅ Direct
     type: select
     proxies:
