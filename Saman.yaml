@@ -25,197 +25,37 @@ dns:
     - 1.1.1.1
     - 8.8.8.8    
 proxies:
-  - name: GetAFreeNode.com-Amsterdam
-    server: 104.22.42.25
+  - name: _US_美国
+    server: 137.175.41.198
     port: 443
     type: vmess
-    uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.73218290.xyz
+    network: ws
+    ws-opts:
+      path: /path/1684907511842
+      headers:
+        Host: www.73218290.xyz
+    udp: true
+  - name: _GB_英国
+    server: vuk1.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
+    servername: vuk1.0bad.com
     network: ws
     ws-opts:
-      path: /speedtest/Amsterdam.kotick.site
+      path: /chat
       headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-Dusseldorf
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Dusseldorf.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-Kansas
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Kansas.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-Lille
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Lille.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-LosAngeles
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/LosAngeles.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-Amsterdam-10GB
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Amsterdam.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-Dusseldorf-10GB
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Dusseldorf.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-Kansas-10GB
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Kansas.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-Lille-10GB
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Lille.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: GetAFreeNode.com-LosAngeles-10GB
-    server: 104.22.42.25
-    port: 443
-    type: vmess
-    uuid: 1876BA11-05C9-4167-B978-564345BEE17A
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/LosAngeles.kotick.site
-      headers:
-        Host: freenodes.saman72.workers.dev
-    udp: true
-  - name: sshstores-samande
-    server: de4vm.cdn-03.live
-    port: 80
-    type: vmess
-    uuid: fe89f6fc-ee03-46e8-855c-0bfe6c6f6463
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: soft98.ir
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: de4vm.cdn-03.live
-    udp: true
-  - name: sshstores-samanuk
-    server: gb1vm.cdn-03.live
-    port: 80
-    type: vmess
-    uuid: 00d9d349-52bd-418e-bbd2-f1c97ba3f5eb
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: soft98.ir
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: gb1vm.cdn-03.live
+        Host: vuk1.0bad.com
     udp: true
   - name: Relay_🇺🇸US-🇺🇸US_159
     server: vin1.0bad.com
@@ -233,8 +73,72 @@ proxies:
       headers:
         Host: vin1.0bad.com
     udp: true
-  - name: Relay_🇺🇸US-🇺🇸US_159-CF
-    server: 104.22.42.25
+  - name: TG频道@kxswa | https://t.me/kxswa
+    server: 199.188.110.114
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.54092415.xyz
+    network: ws
+    ws-opts:
+      path: /path/1684316790433
+      headers:
+        Host: www.54092415.xyz
+    udp: true
+  - name: _US_美国 2
+    server: 199.188.110.114
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.54092415.xyz
+    network: ws
+    ws-opts:
+      path: /path/1684316790433
+      headers:
+        Host: www.54092415.xyz
+    udp: true
+  - name: -1,6,7,9,10,11,12,26,27,29,30,31,32|美国【付费推荐：v1.mk/vip】107
+    server: 199.188.110.114
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.54092415.xyz
+    network: ws
+    ws-opts:
+      path: /path/1684316790433
+      headers:
+        Host: www.54092415.xyz
+    udp: true
+  - name: _US_美国_4_5
+    server: 199.188.110.114
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.54092415.xyz
+    network: ws
+    ws-opts:
+      path: /path/1684316790433
+      headers:
+        Host: www.54092415.xyz
+    udp: true
+  - name: -1|🇺🇸US-50.116.13.120-0141
+    server: 50.116.13.120
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -242,332 +146,122 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: freenodes.saman72.workers.dev
+    servername: vus3.0bad.com
     network: ws
     ws-opts:
-      path: /chat/vin1.0bad.com
+      path: /chat
       headers:
-        Host: freenodes.saman72.workers.dev
+        Host: vus3.0bad.com
     udp: true
-  - name: UK2-LHS-#30
-    server: mtn2.limitedhighspeed.com
-    port: 2053
-    type: vless
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: edCXDgHnW0l9.EntertainmentEmpireX.cfd
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ASDcME1o
-    udp: true
-  - name: UK3-LHS-#22
-    server: mtn2.limitedhighspeed.com
+  - name: -1,17|新加坡 001
+    server: vsg1.0bad.com
     port: 443
     type: vmess
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: qzxwfviJgYcp.TravelerTribeXO.cfd
+    servername: vsg1.0bad.com
     network: ws
     ws-opts:
-      path: /ws
+      path: /chat
       headers:
-        Host: qzxwfviJgYcp.TravelerTribeXO.cfd
+        Host: vsg1.0bad.com
     udp: true
-  - name: DE4-LHS-#36
-    server: mtn2.limitedhighspeed.com
+  - name: 14|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+    server: bgptw3.cnamazon.sbs
     port: 443
-    type: vmess
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 4658738d-c3f1-4ebf-ad7a-ee603e3f9690
     skip-cert-verify: true
-    servername: RdH2uY9wCPgo.GiftBrandStore.cfd
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: RdH2uY9wCPgo.GiftBrandStore.cfd
+    sni: tlsdata.cnamazon.sbs
     udp: true
-  - name: UK4-LHS-#46
-    server: mtn2.limitedhighspeed.com
-    port: 2053
-    type: vless
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: W8tIq1S7lfR9.StoreShopBrand.cfd
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ASDcME1o
-    udp: true
-  - name: FI1-LHS-#26
-    server: mtn2.limitedhighspeed.com
+  - name: _HK_香港
+    server: hk7.jisuyun.co
     port: 443
-    type: vmess
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: abf656f7-4886-46c9-b040-f742688c4d72
     skip-cert-verify: true
-    servername: 5nA1eZdUbxuH.EntertainmentEmporiumHQ.cfd
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: 5nA1eZdUbxuH.EntertainmentEmporiumHQ.cfd
+    sni: tls.jisuyun.co
     udp: true
-  - name: DE2-LHS-#18
-    server: mtn2.limitedhighspeed.com
+  - name: -1|🇺🇸US-23.224.110.246-4801
+    server: 23.224.110.246
     port: 443
-    type: vmess
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zdf6XyuHUnJv.ShopStoreBrand.cfd
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: zdf6XyuHUnJv.ShopStoreBrand.cfd
-    udp: true
-  - name: DE2-LHS-#16
-    server: mtn2.limitedhighspeed.com
-    port: 2053
-    type: vless
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: jD25dCpsS4NL.ShopStoreBrand.cfd
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ASDcME1o
-    udp: true
-  - name: FR1-LHS-#38
-    server: mtn2.limitedhighspeed.com
-    port: 2053
-    type: vless
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: UouImhObGBrW.CodeCrazyCorner.cfd
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ASDcME1o
-    udp: true
-  - name: UK3-LHS-#20
-    server: mtn2.limitedhighspeed.com
-    port: 2053
-    type: vless
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cuWs1UyO6nNm.TravelerTribeXO.cfd
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ASDcME1o
-    udp: true
-  - name: DE4-LHS-#34
-    server: mtn2.limitedhighspeed.com
-    port: 2053
-    type: vless
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: DvmZPXyGTMSc.GiftBrandStore.cfd
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ASDcME1o
-    udp: true
-  - name: UK4-LHS-#48
-    server: mtn2.limitedhighspeed.com
-    port: 443
-    type: vmess
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ov3nTlZtgJWu.StoreShopBrand.cfd
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: ov3nTlZtgJWu.StoreShopBrand.cfd
-    udp: true
-  - name: FI1-LHS-#24
-    server: mtn2.limitedhighspeed.com
-    port: 2053
-    type: vless
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: LFJilDorGCnp.EntertainmentEmporiumHQ.cfd
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ASDcME1o
-    udp: true
-  - name: UK2-LHS-#32
-    server: mtn2.limitedhighspeed.com
-    port: 443
-    type: vmess
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: WIM80Q7Bwvm5.EntertainmentEmpireX.cfd
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: WIM80Q7Bwvm5.EntertainmentEmpireX.cfd
-    udp: true
-  - name: FR1-LHS-#40
-    server: mtn2.limitedhighspeed.com
-    port: 443
-    type: vmess
-    uuid: 9308e96a-b13d-4404-82d9-69efe9c3ef0f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: BRkzJFdOQ91H.CodeCrazyCorner.cfd
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: BRkzJFdOQ91H.CodeCrazyCorner.cfd
-    udp: true 
-  - name: San Jose-2132
-    server: 199.180.103.20
-    port: 49988
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: www.77039717.xyz
+    network: ws
+    ws-opts:
+      path: /path/1684230882527
+      headers:
+        Host: www.77039717.xyz
     udp: true
-  - name: San Jose-1864
-    server: 156.251.135.14
-    port: 53302
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    udp: true   
-  - name: Iranian+Cypherpunks+Reality2
-    server: 91.107.133.124
+  - name: کانفیگ+های+بیشتر+در+کانال+:+🕊️shopingv2ray@🕊️
+    server: moznet.independenttherapeutics.com
     port: 443
     type: vless
-    uuid: ce46a621-a0ff-4816-f38a-c023e22f34bc
+    uuid: 70b9c069-1571-4a6f-d4af-a4fd6865ac4a
     cipher: auto
     tls: false
     flow: xtls-rprx-vision
     skip-cert-verify: true
-    servername: discord.com
+    servername: www.mozilla.org
     udp: true
-  - name: X_HER0
-    server: 78.47.192.167
-    port: 33759
-    type: vless
-    uuid: 7916b72c-1fa2-42a0-e13d-591b93310f66
+  - name: -1,21|US_142.4.118.123_052620239e3e-...
+    server: 142.4.118.123
+    port: 40349
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: www.discord.com
+    servername: ""
     udp: true           
 proxy-groups:
   - name: 🔰 Select
     type: select
     proxies:
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam-10GB
-      - GetAFreeNode.com-Dusseldorf-10GB
-      - GetAFreeNode.com-Kansas-10GB
-      - GetAFreeNode.com-Lille-10GB
-      - GetAFreeNode.com-LosAngeles-10GB
-      - sshstores-samande
-      - sshstores-samanuk
+      - _US_美国
+      - _GB_英国
       - Relay_🇺🇸US-🇺🇸US_159
-      - Relay_🇺🇸US-🇺🇸US_159-CF
-      - UK2-LHS-#30
-      - UK3-LHS-#22
-      - DE4-LHS-#36
-      - UK4-LHS-#46
-      - FI1-LHS-#26
-      - DE2-LHS-#18
-      - DE2-LHS-#16
-      - FR1-LHS-#38
-      - UK3-LHS-#20
-      - DE4-LHS-#34
-      - UK4-LHS-#48
-      - FI1-LHS-#24
-      - UK2-LHS-#32
-      - FR1-LHS-#40
-      - San Jose-2132
-      - San Jose-1864
-      - Iranian+Cypherpunks+Reality2
-      - X_HER0
+      - TG频道@kxswa | https://t.me/kxswa
+      - _US_美国 2
+      - -1,6,7,9,10,11,12,26,27,29,30,31,32|美国【付费推荐：v1.mk/vip】107
+      - _US_美国_4_5
+      - -1|🇺🇸US-50.116.13.120-0141
+      - -1,17|新加坡 001
+      - 14|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - _HK_香港
+      - -1|🇺🇸US-23.224.110.246-4801
+      - کانفیگ+های+بیشتر+در+کانال+:+🕊️shopingv2ray@🕊️
+      - -1,21|US_142.4.118.123_052620239e3e-...
+      - DIRECT
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam-10GB
-      - GetAFreeNode.com-Dusseldorf-10GB
-      - GetAFreeNode.com-Kansas-10GB
-      - GetAFreeNode.com-Lille-10GB
-      - GetAFreeNode.com-LosAngeles-10GB
-      - sshstores-samande
-      - sshstores-samanuk
+      - _US_美国
+      - _GB_英国
       - Relay_🇺🇸US-🇺🇸US_159
-      - Relay_🇺🇸US-🇺🇸US_159-CF
-      - UK2-LHS-#30
-      - UK3-LHS-#22
-      - DE4-LHS-#36
-      - UK4-LHS-#46
-      - FI1-LHS-#26
-      - DE2-LHS-#18
-      - DE2-LHS-#16
-      - FR1-LHS-#38
-      - UK3-LHS-#20
-      - DE4-LHS-#34
-      - UK4-LHS-#48
-      - FI1-LHS-#24
-      - UK2-LHS-#32
-      - FR1-LHS-#40
-      - San Jose-2132
-      - San Jose-1864
-      - Iranian+Cypherpunks+Reality2
-      - X_HER0
+      - TG频道@kxswa | https://t.me/kxswa
+      - _US_美国 2
+      - -1,6,7,9,10,11,12,26,27,29,30,31,32|美国【付费推荐：v1.mk/vip】107
+      - _US_美国_4_5
+      - -1|🇺🇸US-50.116.13.120-0141
+      - -1,17|新加坡 001
+      - 14|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - _HK_香港
+      - -1|🇺🇸US-23.224.110.246-4801
+      - کانفیگ+های+بیشتر+در+کانال+:+🕊️shopingv2ray@🕊️
+      - -1,21|US_142.4.118.123_052620239e3e-...
+      - DIRECT
   - name: ✅ Direct
     type: select
     proxies:
