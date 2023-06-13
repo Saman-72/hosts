@@ -25,242 +25,159 @@ dns:
     - 1.1.1.1
     - 8.8.8.8    
 proxies:
-  - name: _US_美国
-    server: 137.175.41.198
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.73218290.xyz
-    network: ws
-    ws-opts:
-      path: /path/1684907511842
-      headers:
-        Host: www.73218290.xyz
-    udp: true
-  - name: _GB_英国
-    server: vuk1.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vuk1.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vuk1.0bad.com
-    udp: true
-  - name: Relay_🇺🇸US-🇺🇸US_159
-    server: vin1.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vin1.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vin1.0bad.com
-    udp: true
-  - name: TG频道@kxswa | https://t.me/kxswa
-    server: 199.188.110.114
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.54092415.xyz
-    network: ws
-    ws-opts:
-      path: /path/1684316790433
-      headers:
-        Host: www.54092415.xyz
-    udp: true
-  - name: _US_美国 2
-    server: 199.188.110.114
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.54092415.xyz
-    network: ws
-    ws-opts:
-      path: /path/1684316790433
-      headers:
-        Host: www.54092415.xyz
-    udp: true
-  - name: -1,6,7,9,10,11,12,26,27,29,30,31,32|美国【付费推荐：v1.mk/vip】107
-    server: 199.188.110.114
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.54092415.xyz
-    network: ws
-    ws-opts:
-      path: /path/1684316790433
-      headers:
-        Host: www.54092415.xyz
-    udp: true
-  - name: _US_美国_4_5
-    server: 199.188.110.114
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.54092415.xyz
-    network: ws
-    ws-opts:
-      path: /path/1684316790433
-      headers:
-        Host: www.54092415.xyz
-    udp: true
-  - name: -1|🇺🇸US-50.116.13.120-0141
-    server: 50.116.13.120
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vus3.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vus3.0bad.com
-    udp: true
-  - name: -1,17|新加坡 001
-    server: vsg1.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vsg1.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vsg1.0bad.com
-    udp: true
-  - name: 14|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-    server: bgptw3.cnamazon.sbs
-    port: 443
-    type: trojan
-    password: 4658738d-c3f1-4ebf-ad7a-ee603e3f9690
-    skip-cert-verify: true
-    sni: tlsdata.cnamazon.sbs
-    udp: true
-  - name: _HK_香港
-    server: hk7.jisuyun.co
-    port: 443
-    type: trojan
-    password: abf656f7-4886-46c9-b040-f742688c4d72
-    skip-cert-verify: true
-    sni: tls.jisuyun.co
-    udp: true
-  - name: -1|🇺🇸US-23.224.110.246-4801
-    server: 23.224.110.246
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.77039717.xyz
-    network: ws
-    ws-opts:
-      path: /path/1684230882527
-      headers:
-        Host: www.77039717.xyz
-    udp: true
-  - name: کانفیگ+های+بیشتر+در+کانال+:+🕊️shopingv2ray@🕊️
-    server: moznet.independenttherapeutics.com
-    port: 443
+  - name: t.me/therealaleph
+    server: irc2.gozargah.one
+    port: 8443
     type: vless
-    uuid: 70b9c069-1571-4a6f-d4af-a4fd6865ac4a
+    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
     cipher: auto
     tls: false
     flow: xtls-rprx-vision
     skip-cert-verify: true
-    servername: www.mozilla.org
+    servername: ftp.debian.org
     udp: true
-  - name: -1,21|US_142.4.118.123_052620239e3e-...
-    server: 142.4.118.123
-    port: 40349
+  - name: MCI
+    server: hrh.gozargah.one
+    port: 443
+    type: vless
+    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: www.zula.ir
+    udp: true
+  - name: Aleph_Free_Reality_Irancell_9_49GB
+    server: irc2.gozargah.one
+    port: 443
+    type: vless
+    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: discord.com
+    udp: true
+  - name: غیر_قابل_فروش
+    server: irc.gozargah.one
+    port: 443
+    type: vless
+    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: discord.com
+    udp: true
+  - name: Irancell_80
+    server: irc.gozargah.one
+    port: 8443
+    type: vless
+    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: discord.com
+    udp: true
+  - name: IRANCELL_2087_ALEPH
+    server: irc2.gozargah.one
+    port: 2087
+    type: vless
+    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: connectivitycheck.gstatic.com
+    udp: true
+  - name: "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅"
+    server: free.1alphaomega.org
+    port: 2095
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: 8d0fd563-2727-469d-9425-04bc5fb2c81b
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: ""
-    udp: true           
+    servername: zula.ir
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /@AmirTechno_Service
+      headers:
+        Host:
+          - zula.ir
+    udp: true
+  - name: Vip2+Telegram+(shopingv2ray)
+    server: speedtest.wlftest.xyz
+    port: 443
+    type: vless
+    uuid: e760d041-5fb3-4b2f-f5b8-f10891f1720c
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    udp: true
+  - name: "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅ 2"
+    server: v2rayngvp.mesi2.sbs
+    port: 2095
+    type: vmess
+    uuid: 7a41b783-ea78-48a6-82cd-d82f70551a2e
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: v3.mesi1.sbs
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v3.mesi1.sbs
+    udp: true
+  - name: ✅+سرورهای+بیشتر+در+کانال+:++prrofile_purple@+✅
+    server: 88.214.58.123
+    port: 443
+    type: vless
+    uuid: ffbcd962-980f-4b80-a1d4-674b484785cf
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: telewebion.com
+    udp: true
 proxy-groups:
   - name: 🔰 Select
     type: select
     proxies:
-      - _US_美国
-      - _GB_英国
-      - Relay_🇺🇸US-🇺🇸US_159
-      - TG频道@kxswa | https://t.me/kxswa
-      - _US_美国 2
-      - -1,6,7,9,10,11,12,26,27,29,30,31,32|美国【付费推荐：v1.mk/vip】107
-      - _US_美国_4_5
-      - -1|🇺🇸US-50.116.13.120-0141
-      - -1,17|新加坡 001
-      - 14|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - _HK_香港
-      - -1|🇺🇸US-23.224.110.246-4801
-      - کانفیگ+های+بیشتر+در+کانال+:+🕊️shopingv2ray@🕊️
-      - -1,21|US_142.4.118.123_052620239e3e-...
+      - t.me/therealaleph
+      - MCI
+      - Aleph_Free_Reality_Irancell_9_49GB
+      - غیر_قابل_فروش
+      - Irancell_80
+      - IRANCELL_2087_ALEPH
+      - "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅"
+      - Vip2+Telegram+(shopingv2ray)
+      - "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅ 2"
+      - ✅+سرورهای+بیشتر+در+کانال+:++prrofile_purple@+✅
       - DIRECT
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国
-      - _GB_英国
-      - Relay_🇺🇸US-🇺🇸US_159
-      - TG频道@kxswa | https://t.me/kxswa
-      - _US_美国 2
-      - -1,6,7,9,10,11,12,26,27,29,30,31,32|美国【付费推荐：v1.mk/vip】107
-      - _US_美国_4_5
-      - -1|🇺🇸US-50.116.13.120-0141
-      - -1,17|新加坡 001
-      - 14|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - _HK_香港
-      - -1|🇺🇸US-23.224.110.246-4801
-      - کانفیگ+های+بیشتر+در+کانال+:+🕊️shopingv2ray@🕊️
-      - -1,21|US_142.4.118.123_052620239e3e-...
+      - t.me/therealaleph
+      - MCI
+      - Aleph_Free_Reality_Irancell_9_49GB
+      - غیر_قابل_فروش
+      - Irancell_80
+      - IRANCELL_2087_ALEPH
+      - "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅"
+      - Vip2+Telegram+(shopingv2ray)
+      - "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅ 2"
+      - ✅+سرورهای+بیشتر+در+کانال+:++prrofile_purple@+✅
       - DIRECT
   - name: ✅ Direct
     type: select
