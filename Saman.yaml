@@ -25,159 +25,607 @@ dns:
     - 1.1.1.1
     - 8.8.8.8    
 proxies:
-  - name: t.me/therealaleph
-    server: irc2.gozargah.one
-    port: 8443
-    type: vless
-    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: ftp.debian.org
-    udp: true
-  - name: MCI
-    server: hrh.gozargah.one
-    port: 443
-    type: vless
-    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: www.zula.ir
-    udp: true
-  - name: Aleph_Free_Reality_Irancell_9_49GB
-    server: irc2.gozargah.one
-    port: 443
-    type: vless
-    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: discord.com
-    udp: true
-  - name: غیر_قابل_فروش
-    server: irc.gozargah.one
-    port: 443
-    type: vless
-    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: discord.com
-    udp: true
-  - name: Irancell_80
-    server: irc.gozargah.one
-    port: 8443
-    type: vless
-    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: discord.com
-    udp: true
-  - name: IRANCELL_2087_ALEPH
-    server: irc2.gozargah.one
+  - name: Server 9
+    server: jolimolilap.com
     port: 2087
-    type: vless
-    uuid: fb63792d-bc98-4040-8e9e-e79b0e5d20f1
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: connectivitycheck.gstatic.com
-    udp: true
-  - name: "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅"
-    server: free.1alphaomega.org
-    port: 2095
     type: vmess
-    uuid: 8d0fd563-2727-469d-9425-04bc5fb2c81b
+    uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: zula.ir
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /@AmirTechno_Service
-      headers:
-        Host:
-          - zula.ir
+    servername: TtTtYYYNNNNNNSNSNSNSNSNNSJSSJSJJSJSJSJSJSJSKSOSOWOWOSMSNSN2222919JJAJJAJA.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf
     udp: true
-  - name: Vip2+Telegram+(shopingv2ray)
-    server: speedtest.wlftest.xyz
+  - name: Telegram+(@shopingv2ray)
+    server: 172.232.32.137
+    port: 8443
+    type: vless
+    uuid: e847356b-c7e0-40bf-987d-3eb4d2cd6647
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: cdn.discordapp.com
+    udp: true
+  - name: Telegram+(@shopingv2ray) 2
+    server: panel.wenyx.gq
     port: 443
     type: vless
-    uuid: e760d041-5fb3-4b2f-f5b8-f10891f1720c
+    uuid: 242c49c9-71a6-422a-a1a3-cf151ca9b77c
     cipher: auto
     tls: false
     flow: xtls-rprx-vision
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅ 2"
-    server: v2rayngvp.mesi2.sbs
-    port: 2095
-    type: vmess
-    uuid: 7a41b783-ea78-48a6-82cd-d82f70551a2e
-    alterId: 0
+  - name: Telegram+(@shopingv2ray) 3
+    server: 172.232.47.34
+    port: 2087
+    type: vless
+    uuid: 3b93f6d8-bcdd-47f7-bb08-44d73abcc571
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: v3.mesi1.sbs
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: v3.mesi1.sbs
+    servername: discord.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: join-telegram_ip_cf
     udp: true
-  - name: ✅+سرورهای+بیشتر+در+کانال+:++prrofile_purple@+✅
-    server: 88.214.58.123
+  - name: Denmark+57+@RoansoMods
+    server: 147.182.217.103
     port: 443
     type: vless
-    uuid: ffbcd962-980f-4b80-a1d4-674b484785cf
+    uuid: bc90b287-0bf2-4a8e-b018-cd92f64cfca2
     cipher: auto
     tls: false
     flow: xtls-rprx-vision
     skip-cert-verify: true
-    servername: telewebion.com
+    servername: www.speedtest.net
+    udp: true
+  - name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+    server: 172.232.34.28
+    port: 8443
+    type: vless
+    uuid: e847356b-c7e0-40bf-987d-3eb4d2cd6647
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: discordapp.com
+    udp: true
+  - name: Telegram+(@shopingv2ray) 4
+    server: 167.235.249.207
+    port: 1111
+    type: vless
+    uuid: c30e7dcc-79dd-49d9-bdce-ac0aa775dfbe
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: flutter.dev
+    udp: true
+  - name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅ 2
+    server: 185.126.255.88
+    port: 45077
+    type: vless
+    uuid: f328bd85-f5cd-4dc1-a2fc-383af5fec94d
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    udp: true
+  - name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅ 3
+    server: 172.232.34.28
+    port: 8443
+    type: vless
+    uuid: e847356b-c7e0-40bf-987d-3eb4d2cd6647
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: discordapp.com
+    udp: true
+  - name: Denmark+57+@RoansoMods 2
+    server: 167.71.28.89
+    port: 443
+    type: vless
+    uuid: 697ad205-d592-48b3-b658-7db8fa7c06cc
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    udp: true
+  - name: Server 13
+    server: 24.144.124.47
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Server 8
+    server: 146.190.215.69
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Server 7
+    server: 24.144.108.255
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Australia+9+@RoansoMods
+    server: 46.101.24.244
+    port: 443
+    type: vless
+    uuid: e1510d52-cff2-4857-a055-19fd84b5967f
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    udp: true
+  - name: Japan+5985+@RoansoMods
+    server: 24.199.121.134
+    port: 443
+    type: vless
+    uuid: 7c569a59-a78f-4d67-aa61-5c3cfce28b74
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    udp: true
+  - name: France+1070+@RoansoMods
+    server: 146.190.131.94
+    port: 443
+    type: vless
+    uuid: cd25f9e0-8a7c-49ad-b083-d92c16f10fed
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    udp: true
+  - name: Server 10
+    server: jolimolilap.com
+    port: 2087
+    type: vmess
+    uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kkskskskskskskks.mkasdmaskdkmaskdasdlkasdmkasdasdasmkdkmasd.store
+    network: grpc
+    grpc-opts:
+      grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf
+    udp: true
+  - name: France+88521+@RoansoMods
+    server: 146.190.77.81
+    port: 443
+    type: vless
+    uuid: 94811a48-97cf-449e-e25f-6e98798ff0ad
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    udp: true
+  - name: Server 19
+    server: 24.199.91.156
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Telegram+(@shopingv2ray) 5
+    server: 172.232.32.137
+    port: 8443
+    type: vless
+    uuid: e847356b-c7e0-40bf-987d-3eb4d2cd6647
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: cdn.discordapp.com
+    udp: true
+  - name: Server 22
+    server: 139.162.16.104
+    port: 10013
+    type: vmess
+    uuid: aba18fa5-e326-4886-be0b-cb79e4b9da9b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /sgp
+      headers:
+        Host: ""
+    udp: true
+  - name: Server 1
+    server: 165.232.123.112
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: moi.ir
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - moi.ir
+    udp: true
+  - name: Server 2
+    server: 167.99.143.227
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Server 3
+    server: 161.35.202.80
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Server 4
+    server: 165.232.68.83
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Server 5
+    server: 165.232.115.185
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: moi.ir
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - moi.ir
+    udp: true
+  - name: Server 6
+    server: jolimolilap.com
+    port: 2087
+    type: vmess
+    uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 44444444445555559999NnnnnnnnnMmmmmmmIiiiiiiiiiiiiiiiiiiwjwjsjskksksskskskUuuuujsjjsjsjaiowksnsnsnuAaaa.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsdfs.sbs.
+    network: grpc
+    grpc-opts:
+      grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf
+    udp: true
+  - name: Server 11
+    server: 207.154.205.67
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Server 12
+    server: jolimolilap.com
+    port: 2087
+    type: vmess
+    uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 44444444445555559999NnnnnnnnnMmmmmmmIiiiiiiiiiiiiiiiiiiwjwjsjskksksskskskUuuuujsjjsjsjaiowksnsnsnuAaaa.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsdfs.sbs.
+    network: grpc
+    grpc-opts:
+      grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf
+    udp: true
+  - name: Server 14
+    server: 167.99.143.227
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: moi.ir
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - moi.ir
+    udp: true
+  - name: Server 15
+    server: 138.68.91.3
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Server 16
+    server: 164.92.137.255
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: mihanwebhost.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - mihanwebhost.com
+    udp: true
+  - name: Server 17
+    server: 64.225.100.208
+    port: 8881
+    type: vmess
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: moi.ir
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - moi.ir
+    udp: true
+  - name: Server 18
+    server: jolimolilap.com
+    port: 2087
+    type: vmess
+    uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 4MAMKSKMAMKSKMASKMAKSK4AKIWJSDSDxaSASQIWQIMAXMAZXKM.mkasdmaskdkmaskdasdlkasdmkasdasdasmkdkmasd.site.
+    network: grpc
+    grpc-opts:
+      grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf
+    udp: true
+  - name: Server 20
+    server: jolimolilap.com
+    port: 2087
+    type: vmess
+    uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 44444444445555559999NnnnnnnnnMmmmmmmIiiiiiiiiiiiiiiiiiiwjwjsjskksksskskskUuuuujsjjsjsjaiowksnsnsnuAaaa.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsdfs.sbs.
+    network: grpc
+    grpc-opts:
+      grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf
     udp: true
 proxy-groups:
   - name: 🔰 Select
     type: select
     proxies:
-      - t.me/therealaleph
-      - MCI
-      - Aleph_Free_Reality_Irancell_9_49GB
-      - غیر_قابل_فروش
-      - Irancell_80
-      - IRANCELL_2087_ALEPH
-      - "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅"
-      - Vip2+Telegram+(shopingv2ray)
-      - "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅ 2"
-      - ✅+سرورهای+بیشتر+در+کانال+:++prrofile_purple@+✅
+      - Server 9
+      - Telegram+(@shopingv2ray)
+      - Telegram+(@shopingv2ray) 2
+      - Telegram+(@shopingv2ray) 3
+      - Denmark+57+@RoansoMods
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+      - Telegram+(@shopingv2ray) 4
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅ 2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅ 3
+      - Denmark+57+@RoansoMods 2
+      - Server 13
+      - Server 8
+      - Server 7
+      - Australia+9+@RoansoMods
+      - Japan+5985+@RoansoMods
+      - France+1070+@RoansoMods
+      - Server 10
+      - France+88521+@RoansoMods
+      - Server 19
+      - Telegram+(@shopingv2ray) 5
+      - Server 22
+      - Server 1
+      - Server 2
+      - Server 3
+      - Server 4
+      - Server 5
+      - Server 6
+      - Server 11
+      - Server 12
+      - Server 14
+      - Server 15
+      - Server 16
+      - Server 17
+      - Server 18
+      - Server 20
       - DIRECT
   - name: 🌀 Auto Ping
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - t.me/therealaleph
-      - MCI
-      - Aleph_Free_Reality_Irancell_9_49GB
-      - غیر_قابل_فروش
-      - Irancell_80
-      - IRANCELL_2087_ALEPH
-      - "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅"
-      - Vip2+Telegram+(shopingv2ray)
-      - "✅ سرورهای بیشتر در کانال :  prrofile_purple@ ✅ 2"
-      - ✅+سرورهای+بیشتر+در+کانال+:++prrofile_purple@+✅
+      - Server 9
+      - Telegram+(@shopingv2ray)
+      - Telegram+(@shopingv2ray) 2
+      - Telegram+(@shopingv2ray) 3
+      - Denmark+57+@RoansoMods
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+      - Telegram+(@shopingv2ray) 4
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅ 2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅ 3
+      - Denmark+57+@RoansoMods 2
+      - Server 13
+      - Server 8
+      - Server 7
+      - Australia+9+@RoansoMods
+      - Japan+5985+@RoansoMods
+      - France+1070+@RoansoMods
+      - Server 10
+      - France+88521+@RoansoMods
+      - Server 19
+      - Telegram+(@shopingv2ray) 5
+      - Server 22
+      - Server 1
+      - Server 2
+      - Server 3
+      - Server 4
+      - Server 5
+      - Server 6
+      - Server 11
+      - Server 12
+      - Server 14
+      - Server 15
+      - Server 16
+      - Server 17
+      - Server 18
+      - Server 20
       - DIRECT
   - name: ✅ Direct
     type: select
