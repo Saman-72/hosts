@@ -1,0 +1,589 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "fatal",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "yacd",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "direct",
+      "secret": "",
+      "default_mode": "rule",
+      "store_selected": true,
+      "cache_file": "clash.db"
+    }
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://dns.bitdefender.net/dns-query",
+        "address_resolver": "dns-direct",
+        "strategy": "ipv4_only",
+        "tag": "dns-remote"
+      },
+      {
+        "address": "https://dns.bitdefender.net/dns-query",
+        "address_resolver": "dns-local",
+        "detour": "direct",
+        "strategy": "ipv4_only",
+        "tag": "dns-direct"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "dns-local"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "dns-block"
+      }
+    ],
+    "rules": [
+      {
+        "domain_suffix": [
+          ".ir"
+        ],
+        "server": "dns-direct"
+      },
+      {
+        "outbound": "direct",
+        "server": "dns-direct",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "any",
+        "server": "dns-direct",
+        "rewrite_ttl": 20
+      }
+    ],
+    "reverse_mapping": true,
+    "strategy": "ipv4_only",
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "listen_port": 6450,
+      "override_address": "8.8.8.8",
+      "override_port": 53,
+      "tag": "dns-in",
+      "type": "direct"
+    },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "domain_strategy": "",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "system",
+      "endpoint_independent_nat": true,
+      "sniff": true,
+      "sniff_override_destination": false
+    },
+    {
+      "domain_strategy": "",
+      "listen": "0.0.0.0",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "@Helix_Serversتلگرام ما",
+      "type": "selector",
+      "outbounds": [
+        "URL-TEST",
+        "@Helix_Servers"
+      ]
+    },
+    {
+      "tag": "URL-TEST",
+      "type": "urltest",
+      "outbounds": [
+        "🇸🇬 1Poland",
+        "🇸🇬 2Poland",
+        "🇸🇬 3Poland",
+        "🇸🇬 4Poland",
+        "🇷🇺 1Russia",
+        "🇰🇷 1Korea",
+        "🇯🇵 1Japan",
+        "🇯🇵 2Japan",
+        "🇯🇵 3Japan",
+        "🇺🇸 1Usa",
+        "🇺🇸 2Usa",
+        "🇬🇧 1UK",
+        "🇩🇪 1Germany",
+        "🇮🇳 1India",
+        "🇦🇺 1AU",
+        "🇨🇭 1Switzerland",
+        "🇭🇰 1HK",
+        "🇹🇼 1Taiwan",
+        "🇮🇱 1Israel",
+        "🇻🇳 1Vietnam",
+        "🇹🇷 1Turkey"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "60s",
+      "tolerance": 50
+    },
+    {
+      "tag": "@Helix_Servers",
+      "type": "selector",
+      "outbounds": [
+        "🇸🇬 1Poland",
+        "🇸🇬 2Poland",
+        "🇸🇬 3Poland",
+        "🇸🇬 4Poland",
+        "🇷🇺 1Russia",
+        "🇰🇷 1Korea",
+        "🇯🇵 1Japan",
+        "🇯🇵 2Japan",
+        "🇯🇵 3Japan",
+        "🇺🇸 1Usa",
+        "🇺🇸 2Usa",
+        "🇬🇧 1UK",
+        "🇩🇪 1Germany",
+        "🇮🇳 1India",
+        "🇦🇺 1AU",
+        "🇨🇭 1Switzerland",
+        "🇭🇰 1HK",
+        "🇹🇼 1Taiwan",
+        "🇮🇱 1Israel",
+        "🇻🇳 1Vietnam",
+        "🇹🇷 1Turkey"
+      ]
+    },
+    {
+      "tag": "🇸🇬 1Poland",
+      "type": "hysteria",
+      "server": "sg1.shiyuandian.shop",
+      "server_port": 10733,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sg1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇸🇬 2Poland",
+      "type": "hysteria",
+      "server": "sg2.shiyuandian.shop",
+      "server_port": 11653,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sg2.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇸🇬 3Poland",
+      "type": "hysteria",
+      "server": "sg3.shiyuandian.shop",
+      "server_port": 17413,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sg3.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇸🇬 4Poland",
+      "type": "hysteria",
+      "server": "sg4.shiyuandian.shop",
+      "server_port": 12169,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sg4.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇷🇺 1Russia",
+      "type": "hysteria",
+      "server": "ru1.shiyuandian.shop",
+      "server_port": 17661,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ru1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇰🇷 1Korea",
+      "type": "hysteria",
+      "server": "kr1.shiyuandian.shop",
+      "server_port": 15592,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "kr1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇯🇵 1Japan",
+      "type": "hysteria",
+      "server": "jp1.shiyuandian.shop",
+      "server_port": 8704,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇯🇵 2Japan",
+      "type": "hysteria",
+      "server": "jp2.shiyuandian.shop",
+      "server_port": 8605,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp2.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇯🇵 3Japan",
+      "type": "hysteria",
+      "server": "jp3.shiyuandian.shop",
+      "server_port": 7474,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp3.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 1Usa",
+      "type": "hysteria",
+      "server": "us1.shiyuandian.shop",
+      "server_port": 14562,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "us1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 2Usa",
+      "type": "hysteria",
+      "server": "us2.shiyuandian.shop",
+      "server_port": 6951,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "us2.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇬🇧 1UK",
+      "type": "hysteria",
+      "server": "uk1.shiyuandian.shop",
+      "server_port": 9127,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇩🇪 1Germany",
+      "type": "hysteria",
+      "server": "de1.shiyuandian.shop",
+      "server_port": 18494,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "de1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇮🇳 1India",
+      "type": "hysteria",
+      "server": "in1.shiyuandian.shop",
+      "server_port": 6422,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "in1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇦🇺 1AU",
+      "type": "hysteria",
+      "server": "au.shiyuandian.shop",
+      "server_port": 15595,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "au.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇨🇭 1Switzerland",
+      "type": "hysteria",
+      "server": "ch1.shiyuandian.shop",
+      "server_port": 6016,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ch1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇭🇰 1HK",
+      "type": "hysteria",
+      "server": "hk1.shiyuandian.shop",
+      "server_port": 16627,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇹🇼 1Taiwan",
+      "type": "hysteria",
+      "server": "tw1.shiyuandian.shop",
+      "server_port": 19774,
+      "up_mbps": 100,
+      "down_mbps": 200,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tw1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇮🇱 1Israel",
+      "type": "hysteria",
+      "server": "il1.shiyuandian.shop",
+      "server_port": 13437,
+      "up_mbps": 1000,
+      "down_mbps": 1000,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "il1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇻🇳 1Vietnam",
+      "type": "hysteria",
+      "server": "vn1.shiyuandian.shop",
+      "server_port": 11030,
+      "up_mbps": 1000,
+      "down_mbps": 1000,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vn1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇹🇷 1Turkey",
+      "type": "hysteria",
+      "server": "tr1.shiyuandian.shop",
+      "server_port": 15619,
+      "up_mbps": 1000,
+      "down_mbps": 1000,
+      "auth_str": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tr1.shiyuandian.shop",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "override_android_vpn": true,
+    "final": "@Helix_Serversتلگرام ما",
+    "geoip": {
+      "download_url": "https://github.com/malikshi/sing-box-geo/releases/latest/download/geoip.db",
+      "download_detour": "direct"
+    },
+    "geosite": {
+      "download_url": "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geosite.db",
+      "download_detour": "direct"
+    },
+    "rules": [
+      {
+        "outbound": "dns-out",
+        "port": [
+          53
+        ]
+      },
+      {
+        "inbound": [
+          "dns-in"
+        ],
+        "outbound": "dns-out"
+      },
+      {
+        "domain_suffix": [
+          "ir"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "geoip": [
+          "ir"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "outbound": "block",
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      }
+    ]
+  }
+}
