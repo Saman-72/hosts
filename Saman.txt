@@ -38,6 +38,10 @@ hysteria://tw1.shiyuandian.shop:6604/?insecure=1&peer=tw1.shiyuandian.shop&auth=
 hysteria://us1.shiyuandian.shop:10014/?insecure=1&peer=us1.shiyuandian.shop&auth=ae845cbd-08fb-4346-929a-e28a6f3960a8&upmbps=100&downmbps=200&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%201Usa
 hysteria://us2.shiyuandian.shop:17719/?insecure=1&peer=us2.shiyuandian.shop&auth=ae845cbd-08fb-4346-929a-e28a6f3960a8&upmbps=100&downmbps=200&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%202Usa
 hysteria://vn1.shiyuandian.shop:12419/?insecure=1&peer=vn1.shiyuandian.shop&auth=ae845cbd-08fb-4346-929a-e28a6f3960a8&upmbps=1000&downmbps=1000&alpn=h3#%F0%9F%87%BB%F0%9F%87%B3%201Vietnam
+hysteria://108.181.22.239:39967/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hysteria://104.234.70.41:57153/?insecure=1&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hysteria://108.181.22.213:33450/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hy2://dongtaiwang.com@167.160.90.252:63530/?insecure=1&sni=www.bing.com#%40TUICity%20%7CHYSTERIA%7C
 vless://39a15cac-4387-4efe-985c-36b60c9aceea@sf.net:8080/?type=ws&encryption=none&host=remembered-fields-failed-balloon.trycloudflare.com&path=%2Fws%3Fed%3D2048#nd8cv3ltd
 vmess://eyJhZGQiOiIyMTIuODAuMjEyLjE4NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlrZXQuaXIiLCJpZCI6ImRiYzI1NGNlLTZhODQtNDQzNC05ODc3LTUzZDg2NDUxZTBlMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjgwODAiLCJwcyI6IlRoYWlsYW5kIC0gYmFuZ2tvayA2Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiJzZXI1Mi5nc214c3NoLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI1ZDBiNjFhMC02NGZjLTRhOWYtZTRiYy01MGVjZGJjMzc2MjMiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjIwNTU0IiwicHMiOiLwn4eu8J+HtyBJcmFuIChJc2xhbWljIFJlcHVibGljIG9mKSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
