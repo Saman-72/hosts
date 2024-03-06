@@ -1,8 +1,8 @@
-//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+//profile-title: base64:8J+UpSBUVUlDaXR5IPCflKU=
 //profile-update-interval: 24
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-//support-url: https://t.me/hiddify
-//profile-web-page-url: https://hiddify.com
+//support-url: https://github.com/Saman-72
+//profile-web-page-url: https://github.com/Saman-72
 
 tuic://c12fd04c-2099-4016-a97c-26c0ae2c7d0b:c12fd04c-2099-4016-a97c-26c0ae2c7d0b@38.6.227.43:54009?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#@TUICity%20%7CTUIC%7C
 tuic://b46cb204-5849-4b86-852d-8154fb8eb580:b46cb204-5849-4b86-852d-8154fb8eb580@142.171.174.206:61213?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#@TUICity%20%7CTUIC%7C
