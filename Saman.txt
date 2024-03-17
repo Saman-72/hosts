@@ -85,6 +85,8 @@ hysteria://us2.shiyuandian.shop:17719?upmbps=100&downmbps=200&auth=ae845cbd-08fb
 hysteria://vn1.shiyuandian.shop:12419?upmbps=1000&downmbps=1000&auth=ae845cbd-08fb-4346-929a-e28a6f3960a8&insecure=1&peer=vn1.shiyuandian.shop&alpn=h3#%F0%9F%87%BB%F0%9F%87%B3%201Vietnam
 
 # TUICity
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@136.244.88.153:443?congestion_control=bbr&alpn=h3&sni=www.apple.com&udp_relay_mode=native&allow_insecure=1#@TUICity%20%7CTUIC%7C
+hy2://f6e4b19a3110d19d@66.135.28.59:443?obfs=salamander&obfs-password=8c3ce17b&insecure=1&sni=www.apple.com%0A#@TUICity%20%7CHYSTERIA%7C
 tuic://c12fd04c-2099-4016-a97c-26c0ae2c7d0b:c12fd04c-2099-4016-a97c-26c0ae2c7d0b@38.6.227.43:54009?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#@TUICity%20%7CTUIC%7C
 tuic://b46cb204-5849-4b86-852d-8154fb8eb580:b46cb204-5849-4b86-852d-8154fb8eb580@142.171.174.206:61213?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#@TUICity%20%7CTUIC%7C
 tuic://81d527fd-5bbf-40fc-b2b0-be1956133aa6:81d527fd-5bbf-40fc-b2b0-be1956133aa6@107.173.15.52:14758?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#@TUICity%20%7CTUIC%7C
@@ -109,5 +111,7 @@ hysteria://158.179.182.107:443?upmbps=30&downmbps=70&auth=483f8ef7-8480-490d-92f
 hysteria://158.178.238.208:443?upmbps=30&downmbps=70&auth=483f8ef7-8480-490d-92fb-1fc392fb34b6&mport=6000-21000&insecure=1&alpn=h3#@TUICity%20%7CHYSTERIA%7C
 hysteria://138.2.109.77:443?upmbps=30&downmbps=70&auth=483f8ef7-8480-490d-92fb-1fc392fb34b6&mport=6000-21000&insecure=1&alpn=h3#@TUICity%20%7CHYSTERIA%7C
 hysteria://193.123.234.114:443?upmbps=30&downmbps=70&auth=483f8ef7-8480-490d-92fb-1fc392fb34b6&mport=6000-21000&insecure=1&alpn=h3#@TUICity%20%7CHYSTERIA%7C
+hysteria://152.69.227.184:443?upmbps=30&downmbps=70&auth=483f8ef7-8480-490d-92fb-1fc392fb34b6&mport=6000-21000&insecure=1&alpn=h3#@TUICity%20%7CHYSTERIA%7C
+hysteria://152.70.237.167:443?upmbps=30&downmbps=70&auth=483f8ef7-8480-490d-92fb-1fc392fb34b6&mport=6000-21000&insecure=1&alpn=h3#@TUICity%20%7CHYSTERIA%7C
 hysteria://152.69.227.184:443?upmbps=30&downmbps=70&auth=483f8ef7-8480-490d-92fb-1fc392fb34b6&mport=6000-21000&insecure=1&alpn=h3#@TUICity%20%7CHYSTERIA%7C
 hysteria://152.70.237.167:443?upmbps=30&downmbps=70&auth=483f8ef7-8480-490d-92fb-1fc392fb34b6&mport=6000-21000&insecure=1&alpn=h3#@TUICity%20%7CHYSTERIA%7C
